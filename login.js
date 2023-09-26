@@ -46,7 +46,7 @@ function login(event) {
   if (user) {
     // Redirect to your website after a 2-second delay
     setTimeout(() => {
-      window.location.href = 'https://terrence28.github.io/Terrisse.github.io/';   // Replace with your actual website URL
+      window.location.href = 'website/index.html';   // Replace with your actual website URL
     }, 2000);  // Delay in milliseconds (2 seconds in this case)
   } else {
     alert('Invalid credentials. Please try again.');
